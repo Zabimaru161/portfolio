@@ -63,7 +63,7 @@ const Hero = () => {
           download={true}
           className="flex items-center justify-center mt-10 bg-gradient-to-r from-orange-600 to-teal-500 text-white py-2 rounded-lg"
         >
-          CV
+          My CV
         </a>
       </div>
 
