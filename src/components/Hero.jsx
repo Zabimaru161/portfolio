@@ -59,13 +59,14 @@ const Hero = () => {
           className="w-60 md:w-72 md:h-72 object-cover object-top bg-gradient-to-b rounded-xl pt-5"
         />
         <a
-          href="/Cover Letter.pdf"
+          href="/Cv.pdf"
           download={true}
           className="flex items-center justify-center mt-10 bg-gradient-to-r from-orange-600 to-teal-500 text-white py-2 rounded-lg"
         >
-          Cover letter and CV
+          CV
         </a>
       </div>
+
       {/* arrow down animation */}
       <div className="mt-10 down-arrow">
         <FaArrowDown className="text-gray-400 text-2xl animate-bounce" />
