@@ -2,6 +2,7 @@ import React from "react";
 import Section from "../common/Section";
 import chat from "../assets/chat.png";
 import todo from "../assets/todo.png";
+import poke from "../assets/poke.png";
 import { FaGithub, FaExternalLinkSquareAlt } from "react-icons/fa";
 const Project = () => {
   const pet = [
@@ -21,10 +22,10 @@ const Project = () => {
     },
     {
       id: 1,
-      image: "",
-      title: "Hit me",
-      github: "",
-      Demo: "",
+      image: poke,
+      title: "Pokedex",
+      github: "https://github.com/Zabimaru161/pokedex",
+      Demo: "https://pokedex-mu-gold.vercel.app/",
     },
   ];
   return (
