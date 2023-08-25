@@ -23,7 +23,7 @@ const Project = () => {
     {
       id: 1,
       image: poke,
-      title: "Pokedex",
+      title: "Search your pokemon",
       github: "https://github.com/Zabimaru161/pokedex",
       Demo: "https://pokedex-mu-gold.vercel.app/",
     },
